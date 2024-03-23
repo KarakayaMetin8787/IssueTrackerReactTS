@@ -237,8 +237,8 @@ const showPasswordChangeModal = () => {
         </div>
         <div className="switchChangeVisibility" onClick={switchLoginRegister}>
         {isLoginVisible ? "Registrieren" : "Login"}
+            <div className="triangle"></div>
         </div>
-        <div className="triangle"></div>
         <div className={`registrationContainer ${isLoginVisible ? "hide" : ""}`}>
             <h2>Registrieren</h2>
             <form onSubmit={handleRegistrationSubmit}>

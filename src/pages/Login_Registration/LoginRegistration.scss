@@ -47,21 +47,20 @@
                 font-size: 1.25rem;
             }
         }
-    // }
-    .ModalVisibility {
-        visibility: visible;
-    }
-    }
-    .triangle {
-        width: 0;
-        height: 0;
-        border-top: 27px solid transparent;  /* Height of the triangle */
-        border-bottom: 27px solid transparent;  /* Height of the triangle */
-        border-left: 20px solid white;
-        position: absolute;
-        bottom: 15vh;
-        right: 42.9vw;
-        z-index: 2;
+        .ModalVisibility {
+            visibility: visible;
+        }
+        .triangle {
+            width: 0;
+            height: 0;
+            border-top: 27px solid transparent;  /* Height of the triangle */
+            border-bottom: 27px solid transparent;  /* Height of the triangle */
+            border-left: 20px solid white;
+            position: absolute;
+            bottom: 0vh;
+            right: -1vw;
+            z-index: 20;
+        }
     }
     .loginContainer, .registrationContainer {
         position: absolute;
