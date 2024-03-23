@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# IssueTracker Frontend in React und TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Das Frontend meines Issue Tracker Projekts mit der Nutzung von React und TypeScript. Bisher gibt es 3 Stufen von Usern und eine Chatfunktion ist implementiert.
+Ich habe mich schon vorher bei einem kleinen Projekt an TypeScript versucht und hier habe ich mir vorgenommen TypeScript an einem größeren Projekt anzuwenden.
+Der beste Weg zum erlernen neuer Skills.
+Ich habe mich auch daran versucht einen eigenen Partikeleffekt umzusetzen. Für den ersten Versuch funktioniert es ganz gut (siehe Screenshot).
 
-Currently, two official plugins are available:
+## Tools
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![My Skills](https://skillicons.dev/icons?i=ts,react,vite,sass,git,github,vscode)](https://skillicons.dev)
 
-## Expanding the ESLint configuration
+## Screenshot
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![App Screenshot](./src/assets/images/screenshot1.png)
 
-- Configure the top-level `parserOptions` property like this:
+## Demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+coming soon
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Authors
+
+[Metin Karakaya](https://github.com/KarakayaMetin8787)
